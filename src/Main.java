@@ -19,7 +19,7 @@ public class Main {
 	public static void main(String[] args) throws NumberFormatException, RemoteException {
 		PersonCheckService personCheckService=new  MernisServisAdapter();
         PlayerService playerService=new PlayerManager(new PlayerRepository(),personCheckService);
-        Player player1=new Player(1,"Mediha Merve","Demiraslan",1997,"27940698678");
+        Player player1=new Player(1,"Mediha Merve","Demiraslan",1997,"279499888888998");
 
         playerService.add(player1);
         System.out.println(playerService.getAll());
